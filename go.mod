@@ -111,4 +111,4 @@ require (
 	sigs.k8s.io/structured-merge-diff/v4 v4.2.3 // indirect
 )
 
-replace k8s.io/apiserver => /home/orion/axoflow/kubernetes/staging/src/k8s.io/apiserver
+replace k8s.io/apiserver => github.com/OverOrion/kubernetes/staging/src/k8s.io/apiserver v0.0.0-20230802125420-b27bea0060e2
